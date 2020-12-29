@@ -31,14 +31,6 @@ img {
   width: 100%;
 }
 
-// Logo
-#logo {
-  width: 70px;
-  height: 70px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
 
 // Main Nav
 #main-nav {
@@ -80,6 +72,13 @@ img {
     height: 100vh;
     color: #fff;
 
+    h2 {
+      font-family: 'Limelight', cursive;
+      font-size: 50px;
+      font-weight: 400;
+      color: $main-color;
+    }
+
     // Header content
     .header-content {
       text-align: center;
@@ -89,8 +88,11 @@ img {
         font-size: 4rem;
         line-height: 1.2;
       }
-    }
 
+      span {
+        color: $main-color;
+      }
+    }
   }
 
   // Header Inner
@@ -103,7 +105,7 @@ img {
 
 // Home Sections
 #home {
-  // Home section A
+  // Section A
   &-a {
     .specials {
       margin-top: 3rem;
@@ -117,7 +119,7 @@ img {
       }
     }
   }
-  // Home section B
+  // Section B
   &-b {
     .stats {
       display: grid;
@@ -148,7 +150,7 @@ img {
       }
     }
   }
-  // Home section C
+  // Section C
   &-c {
     .process {
       display: grid;
@@ -203,7 +205,7 @@ img {
 
 // About Sections
 #about {
-  // About A
+  // Section A
   &-a {
     .about-info {
       display: grid;
@@ -233,7 +235,7 @@ img {
       margin: 1rem;
     }
   }
-  // About B
+  // Section B
   &-b {
     .progress {
       overflow: hidden;
@@ -251,7 +253,7 @@ img {
     }
   }
 
-  // About c
+  // Section C
   &-c {
     .about-logos {
       display: grid;
@@ -263,7 +265,7 @@ img {
       }
     }
   }
-  // About D
+  // Section D
   &-d {
     .testimonials {
       display: grid;
