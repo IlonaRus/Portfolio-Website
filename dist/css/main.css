@@ -209,7 +209,7 @@ img {
       border-color: #ffdd00; }
 
 #header-home {
-  background: url("../images/showcase2.jpg") no-repeat center right/cover;
+  background: url("../images/showcase4.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home h2 {
@@ -227,7 +227,7 @@ img {
       color: #ffdd00; }
 
 #header-inner {
-  background: url("../images/showcase2.jpg") no-repeat 20% 30%/cover;
+  background: url("../images/showcase4.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffdd00; }
   #header-inner h2 {
