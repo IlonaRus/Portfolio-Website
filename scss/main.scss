@@ -135,37 +135,7 @@ img {
       }
     }
   }
-  // Section B
-  &-b {
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
 
-      li {
-        line-height: 2;
-
-        &.stats-title {
-          font-size: 1.5rem;
-        }
-        
-        &.stats-number {
-          font-size: 2rem;
-          font-weight: bold;
-        }
-      }
-
-      div {
-        padding: 3rem 0;
-
-        &:nth-child(odd) {
-          background: $light-color;
-        }
-        &:nth-child(even) {
-          background: $medium-color;
-        }
-      }
-    }
-  }
   // Section C
   &-c {
     .process {
@@ -174,7 +144,7 @@ img {
       grid-gap: 1.5rem;
       text-align: center;
 
-      // Process icon
+      //  icon
       &-icon {
         border-radius: 50%;
         background: $dark-color;
@@ -200,7 +170,7 @@ img {
         }
       }
 
-      // Process step
+      // Blog step
       &-step {
         position: absolute;
         top: 0;
