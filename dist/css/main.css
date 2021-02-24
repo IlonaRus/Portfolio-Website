@@ -245,23 +245,6 @@ img {
     color: #ffdd00;
     padding-bottom: 0.4rem; }
 
-#home-b .stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); }
-  #home-b .stats li {
-    line-height: 2; }
-    #home-b .stats li.stats-title {
-      font-size: 1.5rem; }
-    #home-b .stats li.stats-number {
-      font-size: 2rem;
-      font-weight: bold; }
-  #home-b .stats div {
-    padding: 3rem 0; }
-    #home-b .stats div:nth-child(odd) {
-      background: #f4f4f4; }
-    #home-b .stats div:nth-child(even) {
-      background: #ccc; }
-
 #home-c .process {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -302,8 +285,7 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio'
- 'aw1 aw2 aw3';
+  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -357,9 +339,7 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email'
- 'subject phone'
- 'message message';
+  grid-template-areas: 'name email' 'subject phone' 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -399,7 +379,7 @@ img {
     align-items: center; }
     #main-footer .footer-content .social a {
       color: #fff; }
-    #main-footer .footer-content .social .fab {
+    #main-footer .footer-content .social .fab, #main-footer .footer-content .social .fas {
       margin-right: 1rem;
       border: 2px #fff solid;
       border-radius: 50%;
@@ -408,7 +388,7 @@ img {
       line-height: 20px;
       text-align: center;
       padding: 0.5rem; }
-      #main-footer .footer-content .social .fab:hover {
+      #main-footer .footer-content .social .fab:hover, #main-footer .footer-content .social .fas:hover {
         background: #ffdd00; }
 
 @media (max-width: 800px) {
@@ -447,19 +427,11 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: 'bioimage'
- 'bio'
- 'aw1'
- 'aw2'
- 'aw3'; }
+    grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
   #about-c {
     display: none; }
   #contact-a .text-fields {
-    grid-template-areas: 'name'
- 'subject'
- 'email'
- 'phone'
- 'message'; }
+    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
   #contact-b div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
