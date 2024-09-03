@@ -264,6 +264,11 @@ img {
     border-color: #ffdd00;
 }
 
+#main-nav .logo {
+    height: 64px;
+    width: auto;
+}
+
 /* Header */
 #header-home {
     background: url("../images/showcase.jpg") no-repeat center right/cover;
