@@ -423,7 +423,6 @@ img {
 
 #about-a .bio-image {
     grid-area: bioimage;
-    height: 300px;
     width: 110%;
 }
 
@@ -474,12 +473,12 @@ img {
 
 #about-c .testimonials {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
 }
 #about-c .testimonials ul {
     list-style: none;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     display: flex;
     align-items: center;
 }
